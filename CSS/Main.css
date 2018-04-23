@@ -1,0 +1,285 @@
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	position: relative;
+	width: 100%;
+	background-attachment: scroll;
+	height: 5000px;
+}
+.span{
+	border: 16px;
+	background-color: red;
+	padding: 8px 8px 8px;
+	opacity: 0.7;
+}
+span:hover{
+	color: black;
+	background-color: white;
+	opacity: 1;
+}
+.fa.fa-chevron-left{
+	font-size: 30px;
+}
+.fa.fa-chevron-right{
+	font-size: 30px;
+}
+.header{
+	width: 90%;
+	margin: 0 auto;
+	
+	height: 36px;
+}
+#carouselExampleControls{
+	position: relative;
+	z-index: 0;
+}
+.inline-list{
+	margin-bottom: 0px!important;
+}
+.inline-list li{
+	list-style: none;
+	float: left;
+	padding-left: 10px;
+	line-height: 36px;
+	height: 36px;
+}
+.inline-list a{
+	color: white!important;
+	text-decoration: none!important; 
+	font-size: 20px;
+	margin-right: 35px;
+}
+.top-right{
+	float: right;
+}
+.internet a{
+	color: white!important;
+	font-size: 26px;
+	height: 36px;
+	line-height: 36px;
+	padding-right: 10px;
+}
+.select-box ,.internet {
+	float: left;
+	height: 36px;
+	line-height: 36px;
+
+}
+.languages{
+	margin-right: 35px!important;
+	background-color: transparent;
+	color: blue;
+}
+.btn-group{
+	float: left;
+	margin-right: 20px;
+}
+#btnGroupDrop1{
+	padding: 0px;
+	border: 0px;
+	background-color: transparent;
+	color: white;
+	height: 36px;
+	line-height: 36px;
+}
+.header nav{
+	top: 50px;
+	width: 100%;
+	background-color: red!important;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+.navbar-nav .nav-item{
+	margin-left: 50px;
+}
+.navbar-nav{
+	margin-right: 50px;
+}
+.navbar-nav .nav-link{
+	color: white!important;
+	font-size: 20px;
+}
+.navbar-nav .nav-link:hover{
+	color: black!important;
+}
+.navbar-toggler-icon{
+	color: white;
+}
+.fa.fa-search{
+	color: white;
+	font-size: 20px;
+}
+.nav-item ul li{
+	list-style: none;
+	width: 240px;
+	height: 30px;
+	margin-left: 20px;
+	margin-bottom: 5px;
+}
+.sub-menu{
+	position: absolute;
+	background-color: #212121;
+	display: none;
+	top:40px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+.nav-item ul li a{
+	text-decoration: none!important;
+	color: white!important;
+	cursor: pointer;
+}
+.nav-item ul li a:hover{
+	color: orange!important;
+	cursor: pointer;
+}
+.navbar-nav .nav-item:hover .sub-menu {
+	display: block;
+}
+.has-sub{
+	position: absolute;
+	background-color: #212121;
+	display:none;
+	top: 150px;
+	left: 258px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+.sub-menu li:hover .has-sub{
+	display: block;
+}
+@media(max-width: 575px){
+	.top-right{
+		width: 100%;
+		padding-left: 10px;
+	}
+}
+@media(min-width: 992px){
+	.navbar-nav .nav-link{
+		padding-left: 0px!important;
+		padding-right: 0px!important;
+		font-size: 17px!important;
+	}
+}
+#what-we-do{
+	background-color: #ec9a5d;
+	width: 100%;
+	height: 350px;
+}
+.content{
+	width: 80%;
+	height: 100%;
+	margin: auto;
+	padding-top: 70px;
+}
+.left h3{
+	color: #A13D36;
+}
+.left p{
+	color: #fff;
+	font-size: 20px;
+}
+.right span{
+	border: 16px;
+	color: white;
+	background-color: red;
+	padding: 8px 20px;
+}
+.right p{
+	color: white;
+	font-style: italic;
+	font-size: 20px;
+}
+@media(max-width: 786px) and (min-width: 436px){
+	#what-we-do{
+		height: 500px!important;
+	}
+	.right p{
+		font-size: 18px!important;
+	}
+	.left p{
+		font-size: 18px!important;
+	}
+}
+@media(max-width: 435px){
+	#what-we-do{
+		height: 500px!important;
+	}
+	.content{
+		padding-top: 50px;
+	}
+	.right p{
+		font-size: 15px!important;
+	}
+	.left p{
+		font-size: 15px!important;
+	}
+}
+.video{
+	width: 100%;
+	height: 500px;
+	background-image: url(../IMAGES/wood.jpg);
+	background-repeat: no-repeat;
+}
+.container{
+	height: 100%;
+	width: 100%;
+	margin: auto;
+}
+.clip{
+	margin-top: 70px;
+	width: 80%;
+	height: 70%;
+}
+iframe{
+	width: 100%;
+	height: 100%;
+}
+.content-video{
+	margin-top: 70px;
+}
+.content-video h3{
+	color: white;
+	font-size: 25px!important;
+}
+.content-video p{
+	color: white;
+	font-size: 20px!important;
+	font-style: italic;
+}
+.line{
+	width: 70px;
+	height: 3px;
+	background-color: #e2a062;
+	display: block;
+}
+@media(max-width: 768px) and (min-width: 629px){
+	.content-video h3{
+		font-size: 18px!important;
+	}
+	.content-video p{
+		color: white;
+		font-size: 18px!important;
+		font-style: italic;
+	}
+}
+@media(max-width: 628px){
+	.content-video h3{
+		font-size: 16px!important;
+	}
+	.content-video p{
+		color: white;
+		font-size: 16px!important;
+		font-style: italic;
+	}
+	.clip{
+		margin-top: 30px;
+	}
+	.content-video{
+		margin-top: 30px;
+	}
+}
+
